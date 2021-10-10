@@ -6,22 +6,22 @@ on the data inorder to understand the various characteritics, then we will perfo
 the data which can be used to develop a model which can classify the audios and finally we will create the model based on the requirements and evaluate its performance.
 
 # Important Libraries required 
--import numpy as np
--import pandas as pd
--import matplotlib.pyplot as plt
- %matplotlib inline
+- import numpy as np
+- import pandas as pd
+- import matplotlib.pyplot as plt
+  %matplotlib inline
 
--import os
--from scipy.io import wavfile as wav
--import IPython.display as ipd
--import librosa
--import librosa.display
--from tqdm import tqdm
--from sklearn.model_selection import train_test_split
--from sklearn.preprocessing import LabelEncoder
--import tensorflow as tf
--from tensorflow.keras.utils import to_categorical
--from tensorflow.keras.models import Sequential
--from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
--from tensorflow.keras.optimizers import Adam
--from sklearn import metrics
+- import os
+- from scipy.io import wavfile as wav
+- import IPython.display as ipd
+- import librosa
+- import librosa.display
+- from tqdm import tqdm
+- from sklearn.model_selection import train_test_split
+- from sklearn.preprocessing import LabelEncoder
+- import tensorflow as tf
+- from tensorflow.keras.utils import to_categorical
+- from tensorflow.keras.models import Sequential
+- from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
+- from tensorflow.keras.optimizers import Adam
+- from sklearn import metrics
