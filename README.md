@@ -5,12 +5,11 @@ car_horn, children_playing, dog_bark, drilling, enginge_idling, gun_shot, jackha
 on the data inorder to understand the various characteritics, then we will perform Data Preprocessing to convert 
 the data which can be used to develop a model which can classify the audios and finally we will create the model based on the requirements and evaluate its performance.
 
-# Important Libraries required 
+# Libraries Used:
 - import numpy as np
 - import pandas as pd
 - import matplotlib.pyplot as plt
   %matplotlib inline
-
 - import os
 - from scipy.io import wavfile as wav
 - import IPython.display as ipd
